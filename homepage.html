@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EventSurfer</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <div class="circle"><img src="EventSurfer logo.png" alt=""></div> <!-- Circular logo -->
+            <h2>EventSurfer</h2>
+        </div>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#your-events">Your Events</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>EventSurfer</h1>
+            <p>One Stop Destination for All Your Events!</p>
+        </div>
+    </header>
+
+    <!-- Filter and Event Section -->
+    <section class="filter-section">
+        <div class="filter-box">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="All">All</option>
+                <option value="Music">Music</option>
+                <option value="Workshops">Workshops</option>
+                <option value="Tech">Tech</option>
+                <option value="Sports">Sports</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- Event List -->
+    <section class="event-list" id="events">
+        <!-- Dynamic event cards will be injected here -->
+    </section>
+
+    <!-- Your Events Section -->
+    <section id="your-events" class="your-events">
+        <h2>Your Saved Events</h2>
+        <p>You haven't saved any events yet.</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us">
+        <h2>About Us</h2>
+        <p>EventSurfer is a platform that allows you to discover and stay updated with free and exciting events happening near you. We believe in connecting people to events that inspire joy, learning, and excitement.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>Contact Us: <a href="mailto:eventsurfer@example.com">eventsurfer@example.com</a></p>
+        <p>EventSurfer &copy; 2024</p>
+    </footer>
+
+    <script src="homepage.js"></script>
+</body>
+</html>

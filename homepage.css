@@ -1,0 +1,183 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f9fc;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f37d46;
+    padding: 15px 60px;
+    color: white;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo .circle, nav .logo .circle img {
+    width: 70px;
+    height: 70px;
+    background-color: #feca57;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #feca57;
+}
+
+/* Header Section */
+header {
+    background-color: #25c6d6;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 13px 0px ;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+/* Filter Section */
+.filter-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.filter-box {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-box select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Event List */
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.event-card {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-10px);
+}
+
+.event-card h2 {
+    color: #ff6b6b;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.event-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.event-card .event-date {
+    color: #54a0ff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Your Events Section */
+.your-events {
+    padding: 40px 20px;
+    background-color: #feca57;
+    text-align: center;
+    margin: 20px;
+}
+
+.your-events h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.your-events p {
+    font-size: 18px;
+    color: white;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px 20px;
+    background-color: #ff9f43;
+    text-align: center;
+    margin: 20px;
+}
+
+.about-us h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #222f3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #54a0ff;
+    text-decoration: none;
+}
